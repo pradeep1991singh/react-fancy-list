@@ -55,8 +55,8 @@ export class PlanetList extends Component<PlanetListProps, PlanetListStates> {
         // If list is reached then do nothing
         if (this.state.currentCount === this.state.total) return;
 
-        const el: HTMLElement | null = document.getElementById('content-end');
-        const rect = el && el.getBoundingClientRect();
+        const bottom: HTMLElement | null = document.getElementById('content-end');
+        const rect = bottom && bottom.getBoundingClientRect();
         if (rect && document.documentElement
             && document.documentElement.clientHeight
             && document.documentElement.clientWidth
@@ -75,7 +75,7 @@ export class PlanetList extends Component<PlanetListProps, PlanetListStates> {
                     // Fetch next contents and update the list
                     // we can make apis call here
                     // or can fetch from redux-store too
-                    var count = this.state.currentCount + this.state.offset
+                    const count = this.state.currentCount + this.state.offset
                     if (this.state.currentCount !== this.state.total) {
                         this.setState({
                             isLoading: false,
