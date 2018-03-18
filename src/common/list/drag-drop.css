@@ -1,0 +1,55 @@
+/* list component specific styles */
+
+.list-header {
+    width: 60%;
+    position: fixed;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background: #6c7ae0;
+    color: #ffffff;
+    border-radius: 10px 10px 0 0;
+    height: 110px;
+    border: 0 !important;
+    left: 15%;
+    right: 15%;
+    top: 0px;
+}
+
+.list-header .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list-header .sub-header {
+    margin-bottom: 0;
+}
+
+.search-box {
+    border: 0;
+    padding: 6px 0 7px;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid #fff;
+    width: 25%;
+    color: #fff;
+    height: 50px;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.list-item {
+    cursor: move;
+    font-family: Lato-Regular;
+    font-size: 15px;
+    line-height: 1.4;
+    padding: 20px;
+    border: 1px solid #f8f6ff;
+}
+
+.list-item:not(.list-header):hover {
+    background: #f8f6ff;
+}

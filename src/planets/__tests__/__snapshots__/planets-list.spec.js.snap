@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlanetList should render PlanetList properly 1`] = `
+<div
+  className="planets-list-container"
+>
+  <div
+    className="list-item list-header"
+  >
+    <div
+      className="header"
+    >
+      <h4>
+        Star War planets
+      </h4>
+      <p
+        className="sub-header"
+      >
+        Plane Name - Population
+      </p>
+    </div>
+    <div
+      className="logo-container"
+    >
+      <img
+        alt="logo"
+        className="logo"
+        src="test-file-stub"
+      />
+      <div
+        className="logo-label"
+      >
+        React Js
+      </div>
+    </div>
+    <input
+      autoComplete="off"
+      className="search-box"
+      onChange={[Function]}
+      placeholder="Search . . ."
+      type="text"
+    />
+  </div>
+  <div
+    className="planets"
+  >
+    <div
+      className="planets-list"
+    >
+      <div
+        className="list-container"
+      />
+    </div>
+  </div>
+</div>
+`;
