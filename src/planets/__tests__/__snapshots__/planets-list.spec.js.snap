@@ -11,12 +11,12 @@ exports[`PlanetList should render PlanetList properly 1`] = `
       className="header"
     >
       <h4>
-        Star War planets
+        Explore Star War planets
       </h4>
       <p
         className="sub-header"
       >
-        Plane Name - Population
+        Planet Listing
       </p>
     </div>
     <div
