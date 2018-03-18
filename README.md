@@ -1,8 +1,8 @@
-# React Fancy List
+## React Fancy List
 
-Create in React using open source apis
+React Fancy List using open source apis.
 
-# Installation
+## Installation
 
 Get the source code
 
@@ -12,7 +12,7 @@ Install project dependency, by running:
 
 #### `yarn install`
 
-### Available Scripts
+## Available Scripts
 
 #### `npm start`
 
