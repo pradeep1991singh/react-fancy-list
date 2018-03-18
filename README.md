@@ -1,4 +1,4 @@
-### React Fancy List
+# React Fancy List
 
 * React Fancy List using open source apis.
 
