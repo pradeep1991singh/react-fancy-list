@@ -53,3 +53,10 @@ input::placeholder {
 .list-item:not(.list-header):hover {
     background: #f8f6ff;
 }
+
+.list-item .item-title {
+    color: #3bb18d;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

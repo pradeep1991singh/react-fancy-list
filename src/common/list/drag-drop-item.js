@@ -25,7 +25,7 @@ class DragDropItem extends Component<DragDropItemProps, DragDropListStates> {
 
         return this.props.connectDragSource(this.props.connectDropTarget(
             <div className={`list-item ${type}`} style={style}>
-                <p>PLANET : {name}</p>
+                <p className="item-title">{name}</p>
                 <p>POPULATION : {population}</p>
                 <p>GRAVITY : {gravity}</p>
                 <p>SURFACE WATER : {surface_water}</p>
