@@ -59,4 +59,10 @@ input::placeholder {
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.list-item p {
+    margin-bottom: 3px;
+    font-size: 14px;
 }
