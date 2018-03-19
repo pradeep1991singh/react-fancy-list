@@ -31,7 +31,7 @@
 
 `$ npm run test:integration`
 
-* Runs Unit tests.
+* Runs Integration tests.
 
 `$ npm test`
 
