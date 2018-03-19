@@ -21,9 +21,22 @@
 * The page will reload if you make edits.
 * You will also see any lint errors in the console.
 
+`$ npm run lint`
+
+* Runs linter and display linting error in terminal.
+
+`$ npm run test:unit`
+
+* Runs Unit tests.
+
+`$ npm run test:integration`
+
+* Runs Unit tests.
+
 `$ npm test`
 
 * Launches the test runner in the interactive watch mode.
+* Runs Integration and Unit tests both.
 
 `$ npm run build`
 
